@@ -10,6 +10,7 @@ body {
 		linear-gradient(50deg, #ff4169, #7c26f8);
 	background-attachment: fixed;
 	font-family: Arial, Helvetica, sans-serif;
+	overflow-x: hidden ;
 }
 /* -- Barra de navegação -- */
 .img-logo {
@@ -93,7 +94,11 @@ nav.navbar-transparente {
 	transform: rotate(30deg);
 	padding-left: 80px;
 }
-
+/* -- rodapé -- */
+footer{
+	background: #000;
+	padding: 50px 0px 20px 0px;
+}
 /* ========================= Tipografia ======================== */
 h1 {
 	font-size: 100px;
