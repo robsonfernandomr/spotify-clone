@@ -4,7 +4,6 @@ body,
 .capa {
 	height: 100%;
 }
-
 body {
 	background: url(imagens/capa.png),
 		url(imagens/ruido.png),
@@ -12,7 +11,6 @@ body {
 	background-attachment: fixed;
 	font-family: Arial, Helvetica, sans-serif;
 }
-
 /* -- Barra de navegação -- */
 .img-logo {
 	height: 40px;
@@ -22,45 +20,37 @@ body {
 	background-size: contain;
 	color: transparent;
 }
-
 nav.navbar-transparente {
 	padding: 15px 0px;
 	background: rgba(0, 0, 0, 0.6);
 	border: none;
 }
-
 .navbar-brand {
 	padding: 5px 15px;
 }
-
 .divisor {
 	width: 1px;
 	height: 16px;
 	background: white;
 	margin: 16px 10px;
 }
-
 .navbar-inverse .navbar-nav>li>a {
 	color: white;
 }
-
 .navbar-inverse .navbar-nav>li>a:hover {
 	color: #9bf0e1;
 }
-
 /* -- imagem de capa  -- */
 .capa {
 	display: table;
 	width: 100%;
 }
-
 .texto-capa {
 	text-align: center;
 	color: white;
 	display: table-cell;
 	vertical-align: middle;
 }
-
 /* -- Botões  -- */
 .btn-custom {
 	color: white;
@@ -70,32 +60,26 @@ nav.navbar-transparente {
 	margin: 0px 15px;
 	transition: background 0 .4s, color 0.4s;
 }
-
 .btn-roxo {
 	background: #7c26f8;
 }
-
 .btn-roxo:hover {
 	background-color: #6207e3;
 	color: white;
 }
-
 .btn-branco:hover {
 	background-color: white;
 	color: black;
 }
-
 .btn-branco {
 	border: 2px solid white;
 }
-
 /* -- sessão serviços -- */
 #servicos {
 	background: white;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
-
 .albuns {
 	padding: 10px 0px 10px 0px;
 }
@@ -103,9 +87,6 @@ nav.navbar-transparente {
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
-
-
-
 /* ========================= Tipografia ======================== */
 h1 {
 	font-size: 100px;
@@ -116,17 +97,16 @@ h1 {
 h2{
 	font-size: 50px;
 	font-weight: 700;
-	letter-spacing: -0.04em;  	
+	letter-spacing: -0.04em;
 }
 h3{
 	font-size: 35px;
 	font-weight: 700;
-	letter-spacing: -0.04em;  	
+	letter-spacing: -0.04em;
 }
 #servicos h2 {
 	color: #7c25f8;
 }
-
 #servicos h3{
 	color: #7c25f8;
 }
