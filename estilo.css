@@ -1,17 +1,15 @@
-/*
-* 
-* @author Jamilton Damasceno
-* @version 0.1
-*/
 
 /* ========================= layout ======================== */
-html, body, .capa {
+html,
+body,
+.capa {
 	height: 100%;
 }
+
 body {
-	background: url(imagens/capa.png), 
-	            url(imagens/ruido.png),
-				linear-gradient(50deg,#ff4169,#7c26f8);
+	background: url(imagens/capa.png),
+		url(imagens/ruido.png),
+		linear-gradient(50deg, #ff4169, #7c26f8);
 	background-attachment: fixed;
 	font-family: Arial, Helvetica, sans-serif;
 }
@@ -52,24 +50,51 @@ nav.navbar-transparente {
 }
 
 /* -- imagem de capa  -- */
-.capa{
+.capa {
 	display: table;
 	width: 100%;
 }
-.texto-capa{
+
+.texto-capa {
 	text-align: center;
 	color: white;
 	display: table-cell;
 	vertical-align: middle;
 }
-/* -- Botões  -- */
 
+/* -- Botões  -- */
+.btn-custom {
+	color: white;
+	border-radius: 500px;
+	padding: 10px 35px;
+	text-transform: uppercase;
+	margin: 0px 15px;
+	transition: background 0.4s, color 0.4s;
+}
+
+.btn-roxo {
+	background:#7c26f8;
+}
+
+.btn-roxo:hover {
+	background-color:#6207e3;
+	color: white;
+}
+
+.btn-branco:hover {
+	background-color: white;
+	color: black;
+}
+
+.btn-branco {
+	border: 2px solid white;
+}
 
 
 /* ========================= Tipografia ======================== */
 h1 {
 	font-size: 100px;
 	font-weight: 900;
-	letter-spacing: -0.05em;	
+	letter-spacing: -0.05em;
 	margin-bottom: 50px;
 }
