@@ -90,12 +90,13 @@ nav.navbar-transparente {
 }
 
 /* -- sessão serviços -- */
-#servicos{
-background: white;
-padding-top: 20px;
-padding-bottom: 20px;
+#servicos {
+	background: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
-.albuns{
+
+.albuns {
 	padding: 10px 0px 10px 0px;
 }
 
