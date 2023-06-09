@@ -3,6 +3,7 @@ html,
 body,
 .capa {
 	height: 100%;
+	overflow: auto;
 }
 body {
 	background: url(imagens/capa.png),
@@ -57,9 +58,7 @@ nav.navbar-transparente {
 .btn-custom {
 	color: white;
 	border-radius: 500px;
-	padding: 10px 35px;
 	text-transform: uppercase;
-	margin: 0px 15px;
 	transition: background 0 .4s, color 0.4s;
 }
 .btn-roxo {
@@ -111,6 +110,38 @@ h1 {
 	letter-spacing: -0.05em;
 	margin-bottom: 50px;
 }
+/* media queries */
+/* xs <768 */
+@media screen and (max-whidth: 767px){
+	h1 {
+		font-size: 50px;
+	}
+	.btn-custom{
+		margin: 10px 15px;
+	}	
+}
+/* sm */
+@media screen and (min-width: 768px) {
+	h1 {
+		font-size: 70px ;
+	}
+	
+}
+/* md */
+@media screen and (min-width: 992px) {
+	h1 {
+		font-size: 80px ;
+	}
+	
+}
+/* lg */
+@media screen and (min-width: 1200px) {
+	h1 {
+		font-size: 100px ;
+	}
+	
+}
+/* fim Media queries */
 h2{
 	font-size: 50px;
 	font-weight: 700;
